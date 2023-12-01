@@ -14,6 +14,15 @@ Feature: Add Customer Scenario.
     And click on Save button
     Then User can view confirmation message "The new customer has been added successfully."
     And close Browser
+
+  @regression
+  Scenario: Search Customer by Email
+    When User click on Customer menu
+    And User click on customer Menu item
+    And Enter customer Email
+    When Click on search button
+    Then User should found Email in the Search table
+    And close Browser
     
     
 

@@ -6,7 +6,7 @@ import org.junit.Assert;
 import pageObject.AddNewCustomerPage;
 import untilities.DriverManager;
 
-public class CustomerPageStepDefs {
+public class AddCustomerPageStepDefs {
 
 
 	public AddNewCustomerPage addNewCustomerPage;
